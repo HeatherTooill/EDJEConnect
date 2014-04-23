@@ -1,0 +1,43 @@
+header#top {
+	height: 75px;
+	border-bottom: 5px solid #82B21A;
+	background: transparent url("../images/le-background.png") repeat-x scroll 0 0;
+}
+
+#logo {
+	float: left;
+	width: 212px;
+	height: 75px;
+	background: url("../images/leading-edje_logo-small.jpg") no-repeat scroll 0 0 transparent;
+	margin: 0 10px;
+	text-indent: -9999px;
+}
+
+	#logo a {
+		display: block;
+		height: 75px;
+		cursor: pointer;
+	}
+
+		#logo a:hover {
+			background-color: transparent;
+		}
+
+.header-container {
+	-webkit-box-shadow: 0 5px 10px #aaa;
+	-moz-box-shadow: 0 5px 10px #aaa;
+	box-shadow: 0 5px 10px #aaa;
+}
+
+.hidden {
+	display: none;
+}
+
+/* Web Fonts */
+@font-face {
+	font-family: 'GoodDogRegular';
+	src: url('../Fonts/GoodDog-webfont.eot');
+	src: url('../Fonts/GoodDog-webfont.eot?#iefix') format('embedded-opentype'), url('../Fonts/GoodDog-webfont.woff') format('woff'), url('../Fonts/GoodDog-webfont.ttf') format('truetype'), url('../Fonts/GoodDog-webfont.svg#GoodDogRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
